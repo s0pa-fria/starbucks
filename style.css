@@ -1,0 +1,58 @@
+
+/*Importando a font Poppins (Google Fontes)*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;900&display=swap');
+/* _________________________________________________________________________________________________ */
+/* Reset (básico) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    /* Variáveis em CSS */
+
+    --corPrimaria: #017143;
+
+    --corPrimaria: #333;
+
+    --corPrimaria: #fff;
+
+}
+/* _________________________________________________________________________________________________ */
+/* Main */
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /*Altura 1 tela (view height)*/
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--corTerciaria);/*Chamada de variável*/
+}
+/* _________________________________________________________________________________________________ */
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header .logo:hover{
+filter: invert(0.1); /*Controla o nível de contraste*/
+}
+
+header ul{
+    position: relative;
+    display: flex; /*Põe os links em linha (Menu)*/
+}
