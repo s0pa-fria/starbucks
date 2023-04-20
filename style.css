@@ -275,6 +275,11 @@ header ul a:hover{
         padding: 20px 20px 120px;
     }
 
+    .conteudo{
+        flex-direction: column;
+        margin-top:100px ;
+    }
+
     .conteudo .textoPrincipal h2{
         font-size: 2.5em;
         margin-bottom: 15px;
